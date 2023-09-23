@@ -21,12 +21,12 @@ function Box ({ id, width = 10, height = 10, backgroundColor = "red", removeBox 
     <div>
       <div
        style={{
-        width: `${width}px`,
-        height: `${height}px`,
+        width: `${width}em`,
+        height: `${height}em`,
         backgroundColor
       }}
       />
-      <button onClick={remove}>Click Box to Remove!</button>
+      <button onClick={remove}>X</button>
     </div>
   );
 }
